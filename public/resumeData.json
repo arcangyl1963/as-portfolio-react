@@ -1,0 +1,156 @@
+{
+  "main": {
+    "name":"James Harris",
+    "organization":"Arcangyl Studios",
+    "jobtitle":"Full Stack Web Developer",
+    "desc":"I am regarded by my peers as a relentless pursuer of knowledge and wisdom. Learning new skills and pushing my limits through hard work and innovation are when I am at my best. Read on to find out how I could be of service to you. ",
+    "image":"profImg.jpg",
+    "bio":"Arcangyl Studios (AS) is simply... James Harris. Founded as a freelance design co-op in Huntsville, Alabama in the mid 1990's, AS is now a one-man web development studio based out of Atlanta, Georgia. After 20 plus years in the Information Technology field working for magazine and newspaper publishers, Mr. Harris has transitioned into web development and UX/UI design. Mr. Harris is currently enrolled as a participant in the Full Stack Flex Bootcamp course through the Georgia Institute of Technology. Here he is gaining knowledge on fundamental skills such as HTML, CSS, Javascript, JQuery, Node.js, and more. With these skills he hopes to improve and add to his body of work produced thus far.",
+    "contactMsg":"Feel free to contact me at the address on phone number listed below.",
+    "email": "arcangyl@gmail.com",
+    "phone": "404-441-3269",
+    "address":{
+      "street":"401 17th Street NW #3101",
+      "city":"Atlanta",
+      "state":"Georgia",
+      "zip": "30363"
+    },
+    "website": "https://arcangyl1963.github.io/",
+    "resumedownload":"https://www.linkedin.com/in/artboyatl?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BVfPp7T7xQLebJetaJncy1A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/arcangyl",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/artboyatl/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/arcangyl1963",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Listed below are my skills in regards to Front End, Back End, and Databases.",
+    "education":[
+      {
+        "school":"Georgia Tech",
+        "degree":"Full Stack Web Development",
+        "graduated":"July 2021",
+        "description":"Six-month immersive coding bootcamp covering MERN full-stack development."
+      },
+      {
+        "school":"University of Alabama in Huntsville",
+        "degree":"Bachelor of Arts - Graphic Design",
+        "graduated":"December 1990",
+        "description":"Completed 4 year degree program in graphic design with minor studies in marketing."
+      }
+    ],
+    "work":[
+      {
+        "company":"Creative Loafing LLC",
+        "title":"IT Digital Support and Web Development",
+        "years":"May 2002 - March 2020",
+        "description":"."
+      },
+      {
+        "company":"Managing Editor Inc.",
+        "title":"Site Integration Project Manager",
+        "years":"April 1998 - April 2002",
+        "description":"MEI was a software developer with a suite of applications for use in the newspaper and magazine publishing industry. I managed projects to install the application systems at newspaper and magazine sites around the U.S. I also conducted the end-user training for production staff at these locations on using the applications and systems. I usually managed an integration crew of 3 to 4 people."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git"
+      },
+            {
+        "name":"HTML5"
+      },
+            {
+        "name":"CSS"
+      },
+            {
+        "name":"JavaScript"
+      },
+      {
+        "name":"Node"
+      },
+      {
+        "name":"MySQL"
+      },
+      {
+        "name":"MongoDB"
+      },
+      {
+        "name":"React"
+      },
+      {
+        "name":"AWS"
+      },
+      {
+        "name":"Heroku"
+      },
+      {
+        "name":"API Workflows"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"News Flash",
+        "category":"Explore your favorite news topics and view articles from sources around the globe.",
+        "image":"News_Flash.png",
+        "url":"https://arcangyl1963.github.io/News-Flash/"
+      },
+      {
+        "title":"Tick Tock Birthday Clock",
+        "category":"Let your inner child loose and create your birthday wishlist while watching the clock countdown to your big day.",
+        "image":"Birthday-Clock-img.png.jpg",
+        "url":"https://tick-tock-birthday-clock.herokuapp.com/dashboard"
+      },
+      {
+        "title":"Coding Challenge Quiz",
+        "category":"Beat the clock while testing your coding knowledge.",
+        "image":"coding-challenge.png",
+        "url":"https://arcangyl1963.github.io/coding-challenge-quiz/"
+      },
+      {
+        "title":"Work Day Scheduler",
+        "category":"Plan your work day with this little organizer.",
+        "image":"Work_Day_Scheduler.png",
+        "url":"https://arcangyl1963.github.io/workday-scheduler/"
+      },
+      {
+        "title":"Fitness Tracker",
+        "category":"Log your fitness routines and register your workout stats.",
+        "image":"fitness-tracker.png",
+        "url":"https://shielded-eyrie-42315.herokuapp.com/"
+      },
+      {
+        "title":"Third Triad Mojo Tech Blog",
+        "category":"Post divine tech insights with this simple blog app.",
+        "image":"tech_blog_screen.jpg",
+        "url":"https://third-triad-mojo-tech-blog.herokuapp.com/"
+      },
+      {
+        "title":"Note Taker App",
+        "category":"Jot down your important thoughts and tasks with this note taking app.",
+        "image":"Note_Taker_Screen.jpg",
+        "url":"https://floating-bayou-71419.herokuapp.com/"
+      },
+      {
+        "title":"Workout Tracker",
+        "category":"Users can create and customize their workout whether it be cardio or weight focused.",
+        "image":"workout.jpg",
+        "url":"https://stark-savannah-12282.herokuapp.com/"
+      }
+    ]
+  }
+}
