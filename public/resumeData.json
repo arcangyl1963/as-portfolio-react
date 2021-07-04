@@ -36,7 +36,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Listed below are my skills in regards to Front End, Back End, and Databases.",
+    "skillMsg":"Listed below are my skills in regards to Front End, Back End, and Databases.",
     "education":[
       {
         "school":"Georgia Tech",
@@ -56,7 +56,7 @@
         "company":"Creative Loafing LLC",
         "title":"IT Digital Support and Web Development",
         "years":"May 2002 - March 2020",
-        "description":"."
+        "description":"Over 19 years I have held many roles with the company and been through a few owners. I started as an Apple Systems Administrator managing the servers and systems I installed here for my previous employer, MEI. At the end I was the sole IT technician/manager, web developer and web content producer, and print production manager. I currently work for them in a similar but limited capacity as a contractor performing the same duties."
       },
       {
         "company":"Managing Editor Inc.",
