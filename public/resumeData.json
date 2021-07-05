@@ -3,10 +3,10 @@
     "name":"James Harris",
     "organization":"Arcangyl Studios",
     "jobtitle":"Full Stack Web Developer",
-    "desc":"I am regarded by my peers as a relentless pursuer of knowledge and wisdom. Learning new skills and pushing my limits through hard work and innovation are when I am at my best. Read on to find out how I could be of service to you. ",
+    "desc":"I am 20+ year IT veteran with a wide range of skills network infrastructures to web development. You could call me an artistic creative and an intellectual nerd. I am relentless when it comes to problem solving and thinking outside-the-box. My philosophy is work hard now and play hard later.",
     "image":"profImg.jpg",
     "bio":"Arcangyl Studios (AS) is simply... James Harris. Founded as a freelance design co-op in Huntsville, Alabama in the mid 1990's, AS is now a one-man web development studio based out of Atlanta, Georgia. After 20 plus years in the Information Technology field working for magazine and newspaper publishers, Mr. Harris has transitioned into web development and UX/UI design. Mr. Harris is currently enrolled as a participant in the Full Stack Flex Bootcamp course through the Georgia Institute of Technology. Here he is gaining knowledge on fundamental skills such as HTML, CSS, Javascript, JQuery, Node.js, and more. With these skills he hopes to improve and add to his body of work produced thus far.",
-    "contactMsg":"Feel free to contact me at the address on phone number listed below.",
+    "contactMsg":"Feel free to contact me at the address or phone number listed below.",
     "email": "arcangyl@gmail.com",
     "phone": "404-441-3269",
     "address":{
@@ -15,8 +15,8 @@
       "state":"Georgia",
       "zip": "30363"
     },
-    "website": "https://arcangyl1963.github.io/",
-    "resumedownload":"https://www.linkedin.com/in/artboyatl?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BVfPp7T7xQLebJetaJncy1A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile",
+    "website": " https://arcangyl1963.github.io/",
+    "downloadresume":"./files/resume_download.pdf",
     "social":[
       {
         "name":"facebook",
@@ -112,7 +112,7 @@
       {
         "title":"Tick Tock Birthday Clock",
         "category":"Let your inner child loose and create your birthday wishlist while watching the clock countdown to your big day.",
-        "image":"Birthday-Clock-img.png.jpg",
+        "image":"Birthday-Clock-img.png",
         "url":"https://tick-tock-birthday-clock.herokuapp.com/dashboard"
       },
       {
@@ -144,12 +144,6 @@
         "category":"Jot down your important thoughts and tasks with this note taking app.",
         "image":"Note_Taker_Screen.jpg",
         "url":"https://floating-bayou-71419.herokuapp.com/"
-      },
-      {
-        "title":"Workout Tracker",
-        "category":"Users can create and customize their workout whether it be cardio or weight focused.",
-        "image":"workout.jpg",
-        "url":"https://stark-savannah-12282.herokuapp.com/"
       }
     ]
   }
