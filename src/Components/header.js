@@ -26,7 +26,7 @@ class Header extends Component {
                     </ul>
                 </nav>
                 <div className="row banner">
-                    <div>
+                    <div className="banner-text">
                         <h1 className="responsive-headline">{org}</h1>
 
                         <h2 className="myName">{name}</h2>

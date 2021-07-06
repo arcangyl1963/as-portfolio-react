@@ -24,42 +24,42 @@ class Resume extends Component {
                 <p>{work.description}</p>
                 </div>
             })
-            var skills = this.props.data.skills.map(function (skills) {
-                var className = 'bar-expand' + skills.name.toLowerCase();
+            var skills = this.props.data.skills.map(function(skills){
+                var className = 'bar-expand '+ skills.name.toLowerCase();
                 return <li key={skills.name}><span style={{width:skills.level}} className={className}></span><em>{skills.name}</em></li>
             })
         }
         return (
             <section id="resume">
                 <div className="row education">
-                    <div className="col-3 columns header-col">
+                    <div className="three columns header-col">
                         <h1><span>Education</span></h1>
                     </div>
-                    <div className="col-9 columns main-col">
+                    <div className="nine columns main-col">
                         <div className="row item">
-                            <div className="col-12 columns">
+                            <div className="twelve columns">
                                 {education}
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row work">
-                    <div className="col-3 columns header-col">
+                    <div className="three columns header-col">
                         <h1><span>Work</span></h1>
                     </div>
-                    <div className="col-9 columns main-col">
+                    <div className="nine columns main-col">
                         <div className="row item">
-                            <div className="col-12 columns">
+                            <div className="twelve columns">
                                 {work}
                             </div>
                         </div>                        
                     </div>
                 </div>
                 <div className="row skill">
-                    <div className="col-3 columns header-col">
+                    <div className="three columns header-col">
                         <h1><span>Skills</span></h1>
                     </div>
-                    <div className="col-9 columns main-col">
+                    <div className="nine columns main-col">
                         <p>{skillMsg}</p><br />
                         <div className="bars">
                             <ul className="skills">
