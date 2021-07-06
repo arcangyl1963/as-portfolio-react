@@ -3,7 +3,7 @@
     "name":"James Harris",
     "organization":"Arcangyl Studios",
     "jobtitle":"Full Stack Web Developer",
-    "desc":"I am 20+ year IT veteran with a wide range of skills network infrastructures to web development. You could call me an artistic creative and an intellectual nerd. I am relentless when it comes to problem solving and thinking outside-the-box. My philosophy is work hard now and play hard later.",
+    "desc":"I am a 20+ year IT veteran with a wide range of skills network infrastructures to web development. You could call me an artistic creative and an intellectual nerd. I am relentless when it comes to problem solving and thinking outside-the-box. My philosophy is work hard now and play hard later.",
     "image":"profImg.jpg",
     "bio":"Arcangyl Studios (AS) is simply... James Harris. Founded as a freelance design co-op in Huntsville, Alabama in the mid 1990's, AS is now a one-man web development studio based out of Atlanta, Georgia. After 20 plus years in the Information Technology field working for magazine and newspaper publishers, Mr. Harris has transitioned into web development and UX/UI design. Mr. Harris is currently enrolled as a participant in the Full Stack Flex Bootcamp course through the Georgia Institute of Technology. Here he is gaining knowledge on fundamental skills such as HTML, CSS, Javascript, JQuery, Node.js, and more. With these skills he hopes to improve and add to his body of work produced thus far.",
     "contactMsg":"Feel free to contact me at the address or phone number listed below.",
@@ -67,36 +67,46 @@
     ],
     "skills":[
       {
+        "level":"80%",
         "name":"Git"
       },
-            {
+      {
+        "level":"100%",
         "name":"HTML5"
       },
-            {
+      {
+        "level":"100%",
         "name":"CSS"
       },
-            {
+      {
+        "level":"75%",
         "name":"JavaScript"
       },
       {
+        "level":"85%",
         "name":"Node"
       },
       {
+        "level":"80%",
         "name":"MySQL"
       },
       {
+        "level":"65%",
         "name":"MongoDB"
       },
       {
+        "level":"60%",
         "name":"React"
       },
-      {
+      {"level":"40%",
         "name":"AWS"
       },
       {
+        "level":"75%",
         "name":"Heroku"
       },
       {
+        "level":"70%",
         "name":"API Workflows"
       }
     ]
