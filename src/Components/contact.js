@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import ContactForm from './contactform';
+
+
+
+
 
 class Contact extends Component {
     render() {
@@ -14,6 +19,10 @@ class Contact extends Component {
         }
         return (
             <section id="contact">
+                <div className="contact-form">
+                    <ContactForm />
+                </div>
+                <hr />
                 <div className="row section-head">
                     <div className="col-2 columns header-col">
                         <h1><span>Contact Me</span></h1>
