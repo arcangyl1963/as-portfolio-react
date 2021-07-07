@@ -16,7 +16,7 @@ class App extends Component {
             resumeData: {}
         };
     }
-    fetchResumeData() {
+    getResumeData() {
         $.ajax({
             url: '/resumeData.json',
             dataType: 'json',
@@ -31,7 +31,7 @@ class App extends Component {
         });
     }
     componentDidMount() {
-        this.fetchResumeData();
+        this.getResumeData();
     }
     render() {
         return (
@@ -46,4 +46,5 @@ class App extends Component {
         );
     }
 }
+
 export default App;
