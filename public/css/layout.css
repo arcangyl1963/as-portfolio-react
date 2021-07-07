@@ -30,7 +30,7 @@ body { background: #223a77; }
 
 header {
    position: relative;
-   height: 8em;
+   height: 6em;
    min-height: 5em;
    width: 100%;
    background: #223a77 url(../images/background_2.jpg) no-repeat top center;
@@ -217,9 +217,10 @@ ul#nav li.current a { color: #e0b92f; }
 }
 #about .profile-img {
    position: relative;
-   width: 200px;
+   width: 40em;
    height: auto;
-   border-radius: none;
+   border-radius: 5%;
+   box-shadow: .5em .75em .75em #223a77;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -258,7 +259,7 @@ ul#nav li.current a { color: #e0b92f; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'Rajdhani', sans-serif;
+   font: 3rem/3rem 'Rajdhani', sans-serif;
    font-weight: 700;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -268,8 +269,9 @@ ul#nav li.current a { color: #e0b92f; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'Rajdhani', sans-serif;
+   font: 3rem/4rem 'Rajdhani', sans-serif;
    font-weight: 600;
+   margin-top: 1rem;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -381,6 +383,7 @@ li {
    background: #fff;
    overflow: hidden;
    position: relative;
+   box-shadow: 1em 1em 1em black;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
