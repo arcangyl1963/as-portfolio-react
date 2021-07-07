@@ -63,11 +63,11 @@ header .banner-text h1 {
    font-weight: 700;
    color: #4f61ff;
    letter-spacing: -2px;
-   margin: 1em auto .25em auto;
+   margin: .5em auto .25em auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h2 {
-   font-size: 3em;
+   font-size: 2.5em;
    font-weight: 700;
 }
 header .banner-text h3 {
@@ -97,8 +97,8 @@ header .social {
 }
 header .social li {
    display: inline-block;
-   margin: 0 15px;
-   padding: 5rem;
+   margin: 0 10px;
+   padding: 3rem;
 }
 header .social li a { color: #fff; }
 header .social li a:hover { color: #e0b92f; }
@@ -106,7 +106,7 @@ header .social li a:hover { color: #e0b92f; }
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 25px;
+   bottom: 15px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
@@ -215,11 +215,11 @@ ul#nav li.current a { color: #e0b92f; }
    color: #223a77;
    margin: 4rem;
 }
-#about .profile-pic {
+#about .profile-img {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 200px;
+   height: auto;
+   border-radius: none;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -786,25 +786,28 @@ call-to-action .button {
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form { margin: 2em 6.5em 2em 6.5em; }
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
-   color: #EBEEEE;
-	display: inline-block;
+   font: 2.2rem 'Rajdhani', sans-serif;
+   font-weight: 700;
+   margin: 1em 2em 1em 2em;
+   color: #223a77;
+	display: block;
 	float: left;
-   width: 26%;
+   width: 25%;
 }
 #contact input,
 #contact textarea,
 #contact select {
-   padding: 18px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
+   /* padding: 18px 20px; */
+   font: 2rem 'Rajdhani', sans-serif;
+   font-weight: 600;
+	color: #223a77;
+	background: #fff;
+	margin-bottom: 2em;
 	border: 0;
 	outline: none;
-   font-size: 15px;
+   font-size: 2rem;
    line-height: 24px;
    width: 65%;
 }
@@ -812,13 +815,15 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #4f61ff;
 }
 #contact button.submit {
+   font: 2rem 'Rajdhani', sans-serif;
+   font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
+	color:#e0b92f;
+   background: #223a77;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -827,7 +832,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #contact button.submit:hover {
-	color: #0D0D0D;
+	color: #223a77;
 	background: #fff;
 }
 #contact span.required {
