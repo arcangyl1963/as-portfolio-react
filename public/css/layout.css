@@ -30,8 +30,8 @@ body { background: #223a77; }
 
 header {
    position: relative;
-   height: 6em;
-   min-height: 5em;
+   height: 40em;
+   min-height: 35em;
    width: 100%;
    background: #223a77 url(../images/background_2.jpg) no-repeat top center;
    background-size: cover !important;
